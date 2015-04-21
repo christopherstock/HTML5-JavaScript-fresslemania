@@ -1,0 +1,51 @@
+
+    /*****************************************************************************
+    *   0.1.6 
+    *   DONE            implement 'this' where possible !
+    *   DONE            level as class
+    *   DONE            implemented <audio> tag and different sounds to cover all browsers
+    *   DONE            improved block collision for jump & fall state ( for ramps )
+    *   DONE            fixed: player may fall through elevated ramps in jumping up state,
+    *   DONE            camera function / class 
+    *   DONE            check x-collisions in 10px-grid - several collision checking steps
+    *   DONE            ramps
+    *   0.1.5
+    *   DONE            disappearing point counter
+    *   DONE            enemies / bots
+    *   DONE            modulized character class in new engine-package [Block, Rect2D].
+    *   0.1.4
+    *   DONE            modulized menu scheme
+    *   DONE            unified key and pointer systems
+    *   DONE            number-display-image ( for points & preloader )
+    *   DONE            preloader jobs to specifiers / preloader jobs.
+    *   DONE            favicon / game-icon
+    *   0.1.3
+    *   DONE            button-behaviour for mouse-control
+    *   DONE            exact percent string for preloader
+    *   DONE            unified touch and mouse buttons
+    *   DONE            action system
+    *   DONE            button-system for pointer operation ( pic: default, down, action-on-released etc. )
+    *   DONE            debug-class: debug-switches for 'pointer', 'keys', 'touchables' etc.
+    *   0.1.2
+    *   DONE            let canvas gain focus - suppressed all unwanted native events!
+    *   DONE            text drawing
+    *   DONE            proper image system
+    *   DONE            namespaces via Objects
+    *   DONE            no performance-effect: cut bg in four pieces
+    *   DONE            suppress drawing scrollbars in browsers
+    *   0.1.1
+    *   DONE            rotating 2d sprites
+    *   DONE            functions for drawing ( image and drawing class, anchors )
+    *   DONE            solve startup!
+    *   DONE            vertical scrolling & parallax scrolling
+    *   DONE            collision to blocks
+    *   DONE            parallax scrolling for bg
+    *
+    *   CANCELED        fancy strings
+    *   CANCELED        improve image system - use filename as id-value - not suitable! one array is mandatory
+    *   CANCELED        canvas context as function params - all occurences of context are encapsulated in Drawing.js
+    *   CANCELED        full screen canvas & image scaling, max size for canvas
+    *   CANCELED        class 'keySystem' with class 'key' for one featured key ? - make fields for "key needs key release ?"    
+    *   CANCELED        draw fancy strings
+    *   CANCELED        font meassurements / font system - some platforms may not support font drawing (iphone) 
+    *****************************************************************************/

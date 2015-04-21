@@ -1,0 +1,85 @@
+
+    <!DOCTYPE html>
+
+    <!-- a joyride with the new canvas-tag that came with HTML5 -->
+    <html>
+
+        <!-- specify meta information -->
+        <head>
+
+            <!-- specify title -->
+            <title>HTML5 Test, (c) 2011 Synapsy Mobile Networks GmbH</title>
+
+            <!-- set favicon -->
+            <link rel="icon"          href="favicon.ico" type="image/x-icon">
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+            <!-- suppress viewport scalation for TOUCH devices -->
+            <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1" />
+
+            <!-- import js-classes -->
+            <script type="text/javascript" src="src/Action.js"              ></script>
+            <script type="text/javascript" src="src/Debug.js"               ></script>
+            <script type="text/javascript" src="src/Main.js"                ></script>
+            <script type="text/javascript" src="src/Settings.js"            ></script>
+            <script type="text/javascript" src="src/engine/MenuScheme.js"   ></script>
+            <script type="text/javascript" src="src/engine/Point2D.js"      ></script>
+            <script type="text/javascript" src="src/engine/Rect2D.js"       ></script>
+            <script type="text/javascript" src="src/game/Block.js"          ></script>
+            <script type="text/javascript" src="src/game/Enemies.js"        ></script>
+            <script type="text/javascript" src="src/game/Item.js"           ></script>
+            <script type="text/javascript" src="src/game/ItemType.js"       ></script>
+            <script type="text/javascript" src="src/game/Level.js"          ></script>
+            <script type="text/javascript" src="src/game/Player.js"         ></script>
+            <script type="text/javascript" src="src/game/PlayerTemplate.js" ></script>
+            <script type="text/javascript" src="src/game/Wall.js"           ></script>
+            <script type="text/javascript" src="src/hid/Key.js"             ></script>
+            <script type="text/javascript" src="src/hid/Pointer.js"         ></script>
+            <script type="text/javascript" src="src/io/Images.js"           ></script>
+            <script type="text/javascript" src="src/io/Sound.js"            ></script>
+            <script type="text/javascript" src="src/state/Game.js"          ></script>
+            <script type="text/javascript" src="src/state/Menu.js"          ></script>
+            <script type="text/javascript" src="src/state/Preloader.js"     ></script>
+            <script type="text/javascript" src="src/state/State.js"         ></script>
+            <script type="text/javascript" src="src/touch/Button.js"        ></script>
+            <script type="text/javascript" src="src/ui/Anchor.js"           ></script>
+            <script type="text/javascript" src="src/ui/Camera.js"           ></script>
+            <script type="text/javascript" src="src/ui/Canvas.js"           ></script>
+            <script type="text/javascript" src="src/ui/Drawing.js"          ></script>
+            <script type="text/javascript" src="src/ui/HUDCounter.js"       ></script>
+            <script type="text/javascript" src="src/ui/HUD.js"              ></script>
+            <script type="text/javascript" src="src/ui/Sprite.js"           ></script>
+            <script type="text/javascript" src="src/util/Console.js"        ></script>
+            <script type="text/javascript" src="src/util/UMath.js"          ></script>
+
+        </head>
+
+        <!-- specify visible information -->
+        <body style="margin: 0px; background-color: #000000; overflow: hidden;">
+
+            <!-- supply different formats for all sound elements [ mp3 for IE ] [ wav for firefox ] -->
+            <audio id="bg1_mp3" preload="auto" autobuffer><source src="sounds/bg1.mp3"></source></audio>
+            <audio id="fx1_mp3" preload="auto" autobuffer><source src="sounds/fx1.mp3"></source></audio>
+            <audio id="fx2_mp3" preload="auto" autobuffer><source src="sounds/fx2.mp3"></source></audio>
+                                                         
+            <audio id="bg1_wav" preload="auto" autobuffer><source src="sounds/bg1.wav"></source></audio>
+            <audio id="fx1_wav" preload="auto" autobuffer><source src="sounds/fx1.wav"></source></audio>
+            <audio id="fx2_wav" preload="auto" autobuffer><source src="sounds/fx2.wav"></source></audio>
+
+            <!-- the table centers our canvas -->
+            <table border="0px" cellspacing="0px" cellpadding="0px" style="width: 100%;" summary="canvas holder">
+                <tr>
+                    <td style="text-align: center;">
+
+                        <!-- the HTML5 canvas - entry-point is src/Main.js -->
+                        <canvas id="canvas">
+                            Canvas has not been initialized yet.
+                        </canvas>
+
+                    </td>
+                </tr>
+            </table>
+
+        </body>
+
+    </html>
